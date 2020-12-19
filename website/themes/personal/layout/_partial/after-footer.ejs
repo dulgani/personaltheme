@@ -1,0 +1,115 @@
+  <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h4>Location <span class="label label-default">I'm here</span>
+                        </h4>
+                        <p class="white">1234 Main Street, Toronto<br>Ontario, Canada</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Collaborate with me <span class="label label-default">let's connect</span>
+                        </h4>
+                        <ul class="list-inline">
+							<li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-twitter"></i></a>
+                            </li>
+							 <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-gitlab"></i></a>
+                            </li> 
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-bitbucket"></i></a>
+                            </li>
+						</ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>About me <span class="label label-default">In nutshell</span>
+                        </h4>
+                        <p class="white">Personal is a great Hexo theme to have for your blog. It is easy to set up and maintain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="black">Copyright &copy; Personal 2017</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="black">Made by <a href="http://www.iblogger.ca" target="_blank">iBlogger</a> with <i class="fa fa-heart" style="color:#DF0101;"></i> In Toronto, Canada. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</script>
+
+    <!-- jQuery -->
+	<%- js('javascript/jquery.js') %>
+
+    <!-- Bootstrap Core JavaScript -->
+	<%- js('javascript/bootstrap.min.js') %>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+	
+	<!-- Scroll to Top Button -->
+	<button href="#top" id="backToTopBtn" class="btn btn-md scroll"><span class="glyphicon glyphicon-chevron-up"></span></button>
+	  <script>
+	  $('#backToTopBtn').click(function(){
+			$('html,body').animate({scrollTop:0},'slow');return false;
+		});
+   </script>
+      <script>
+   $(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scroll').fadeIn();
+		} else {
+			$('.scroll').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scroll').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+   </script>
+
+
+
+
+<% if (config.disqus_shortname){ %>
+<script>
+  var disqus_shortname = '<%= config.disqus_shortname %>';
+  <% if (page.permalink){ %>
+  var disqus_url = '<%= page.permalink %>';
+  <% } %>
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/<% if (page.comments) { %>embed.js<% } else { %>count.js<% } %>';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<% } %>
+
+<% if (theme.fancybox){ %>
+  <%- css('fancybox/jquery.fancybox') %>
+  <%- js('fancybox/jquery.fancybox.pack') %>
+<% } %>
+
+<%- js('js/script') %>

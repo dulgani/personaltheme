@@ -1,0 +1,153 @@
+/*!
+ * Designed by AIR RAYA GROUP (http://www.airrayagroup.com/)
+ * Designed by iBlogger.ca (http://www.iblogger.ca/)
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Underdog);
+@import url(https://fonts.googleapis.com/css?family=Wallpoet);
+
+body {
+    overflow-x: hidden;
+	color: #4a4949;
+}
+header {
+	padding: 150px 0px 100px 0px;
+	background: #10c4e5;
+	background-image: -webkit-linear-gradient(right,#0093ff,#10c4e5);
+    background-image: -o-linear-gradient(right,#0093ff,#10c4e5);
+    background-image: -moz-linear-gradient(right,#0093ff,#10c4e5);
+    background-image: linear-gradient(right,#0093ff,#10c4e5);
+}
+h1.article-title {
+	color: #fff;
+}
+.article-meta {
+	text-align: center;
+}
+.profile {
+	width: 100px;
+	margin: auto;
+}
+.designer {
+	width: 50px;
+}
+span.name {
+	color: #fff;
+}
+p.article-date {
+	color: #fff;
+}
+h4.front, h1.front {
+	color: #fff;
+}
+p {
+    margin: 0 0 10.5px;
+    line-height: 2;
+	color: #4a4949;
+}
+p.white {
+	color: #fff;
+}
+p.black {
+	color: #000;
+}
+img.about {
+	margin-top: 20px;
+}
+aside#sidebar {
+	background: #f2f1eb;
+	padding: 20px;
+	margin-top: 20px;
+}
+img {
+    border: 0;
+    padding-bottom: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+	padding-top: 10px;
+}
+a.recent {
+	font-size: 20px;
+	
+}
+.btn-default {
+    color: #2a2a2a;
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #e6d40e;
+    border-color: #e6d40e;
+}
+.navbar-default {
+    background-color: #f0cd0e;
+}
+.footer-above {
+	background: #0093ff;
+	color: #fff;
+	padding: 40px 0px 40px 0px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #06a4f6;
+    background-color: transparent;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #06a4f6;
+    background-color: transparent;
+}
+.label-default {
+    background-color: #f0cd0e;
+}
+a {
+    color: #06a5f6;
+    text-decoration: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #0dbce9;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    border-color: #0dbce9;
+}
+.footer-below {
+	background: #fff;
+	color: #18181a;
+	padding: 20px 0px 5px 0px;
+}
+#backToTopBtn {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+}
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+i.fa.fa-facebook {
+	color: #fff;
+}
+i.fa.fa-twitter {
+	color: #fff;
+}
+i.fa.fa-gitlab {
+	color: #fff;
+}
+i.fa.fa-bitbucket {
+	color: #fff;
+}
