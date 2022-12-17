@@ -1,7 +1,7 @@
 # Hexo Theme - Personal
 <!-- Markdown snippet -->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/56e77d25-6b9e-4056-8320-78c34cf2cc92/deploy-status)](https://app.netlify.com/sites/hexopersonaltheme/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03cdea65-1cec-42f0-a03c-ef252c633f38/deploy-status)](https://app.netlify.com/sites/personaltheme/deploys)
 
 This is Hexo theme
 
