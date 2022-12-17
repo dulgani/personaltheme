@@ -5,7 +5,7 @@
 
 [Theme Preview](https://personaltheme.netlify.app)
 
-![Preview](https://personaltheme.netlify.app/assets/Personal.png)
+[![Preview](https://personaltheme.netlify.app/assets/Personal.png)](https://personaltheme.netlify.app)
 
 
 
