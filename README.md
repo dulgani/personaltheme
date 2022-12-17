@@ -34,7 +34,7 @@ Run server:
 $ hexo server
 ```
 
-## Support by
+## Supported by
 
 - [Iblogger](https://www.iblogger.ca)
 - [AIR RAYA](https://www.airraya.com)
