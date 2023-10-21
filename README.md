@@ -36,7 +36,7 @@ $ hexo server
 
 ## Supported by
 
-- [Iblogger](https://www.iblogger.ca)
+
 - [AIR RAYA](https://www.airraya.com)
 - [Maple Learning](https://www.maplelearning.org)
 
